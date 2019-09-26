@@ -42,7 +42,7 @@ class NetworkModule{
                 .baseUrl("")
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(RxJavaCallAdapterFactory())
+                .addCallAdapterFactory()
                 .build()
     }
 }
